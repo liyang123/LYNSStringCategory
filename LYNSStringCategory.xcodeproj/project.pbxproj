@@ -15,6 +15,7 @@
 		B607A2E01CAA3C2900F656D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B607A2DE1CAA3C2900F656D7 /* LaunchScreen.storyboard */; };
 		B607A2EB1CAA3C2900F656D7 /* LYNSStringCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B607A2EA1CAA3C2900F656D7 /* LYNSStringCategoryTests.m */; };
 		B607A2F61CAA3C2900F656D7 /* LYNSStringCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B607A2F51CAA3C2900F656D7 /* LYNSStringCategoryUITests.m */; };
+		B607A3051CAA3C9000F656D7 /* NSString+LYNSStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B607A3041CAA3C9000F656D7 /* NSString+LYNSStringCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B607A2F11CAA3C2900F656D7 /* LYNSStringCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYNSStringCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B607A2F51CAA3C2900F656D7 /* LYNSStringCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNSStringCategoryUITests.m; sourceTree = "<group>"; };
 		B607A2F71CAA3C2900F656D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B607A3031CAA3C9000F656D7 /* NSString+LYNSStringCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LYNSStringCategory.h"; sourceTree = "<group>"; };
+		B607A3041CAA3C9000F656D7 /* NSString+LYNSStringCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYNSStringCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B607A2D41CAA3C2900F656D7 /* AppDelegate.m */,
 				B607A2D61CAA3C2900F656D7 /* ViewController.h */,
 				B607A2D71CAA3C2900F656D7 /* ViewController.m */,
+				B607A3031CAA3C9000F656D7 /* NSString+LYNSStringCategory.h */,
+				B607A3041CAA3C9000F656D7 /* NSString+LYNSStringCategory.m */,
 				B607A2D91CAA3C2900F656D7 /* Main.storyboard */,
 				B607A2DC1CAA3C2900F656D7 /* Assets.xcassets */,
 				B607A2DE1CAA3C2900F656D7 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				B607A2D81CAA3C2900F656D7 /* ViewController.m in Sources */,
 				B607A2D51CAA3C2900F656D7 /* AppDelegate.m in Sources */,
+				B607A3051CAA3C9000F656D7 /* NSString+LYNSStringCategory.m in Sources */,
 				B607A2D21CAA3C2900F656D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

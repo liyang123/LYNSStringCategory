@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "NSString+LYNSStringCategory.h"
 
+#define kUrl1 @"wxf707ade9f9ff3ebb://oauth?code=0311e31372c6e9c86440eb7b4616501L&state=Weixinauth"
 @interface ViewController ()
 
 @end
@@ -16,12 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+//    NSMutableURLRequest *request;
+//    request setvalue
+//    [request setAllHTTPHeaderFields:@{}];
+    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)btn1:(id)sender {
+    NSString *url = [NSString stringWithFormat:@"%@", kUrl1];
+    NSString *key = @"state";
+    NSString *value = [NSString stringResolutionUrlStr:url WithKey:key];
+    NSLog(@"value = %@", value); // value = Weixinauth
+    
+    
+    
+    
 }
 
 @end
