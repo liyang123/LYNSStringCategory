@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+/** <#商品图标#> */
 
 @end
 
